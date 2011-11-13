@@ -171,17 +171,17 @@ h1 a:hover { color: white; text-decoration: none; text-shadow: 1px 0px 0px #eee,
     #social a:hover { color: rgba(0, 0, 0, .7); border: rgba(0, 0, 0, .2) solid 2px; margin: 8px; -webkit-box-shadow: rgba(255, 255, 255, .2) 0 0 10px; }
     #social a:active { border: rgba(0, 0, 0, .15) solid 2px; -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, .1); padding-top: 7px; padding-bottom: 5px; }
 
-.twitter, .facebook, .dribbble, .linkedin, .hackernews { background: rgba(140, 140, 140, .1); }
+.twitter, .facebook, .flickr, .linkedin, .hackernews { background: rgba(140, 140, 140, .1); }
 
 #social:hover .twitter { background: rgba(108, 210, 252, .15); }
 #social:hover .facebook { background: rgba(59, 89, 152, .15); }
-#social:hover .dribbble { background: rgba(234, 76, 136, .15); }
+#social:hover .flickr { background: rgba(234, 76, 136, .15); }
 #social:hover .linkedin { background: rgba(76, 164, 199, .15); }
 #social:hover .hackernews { background: rgba(255, 102, 0, .15); }
 
 .twitter:hover { background: rgba(108, 210, 252, .3) !important; }
 .facebook:hover { background: rgba(59, 89, 152, .3) !important; }
-.dribbble:hover { background: rgba(234, 76, 136, .3) !important; }
+.flickr:hover { background: rgba(234, 76, 136, .3) !important; }
 .linkedin:hover { background: rgba(76, 164, 199, .3) !important; }
 .hackernews:hover { background: rgba(255, 102, 0, .3) !important; }
 
