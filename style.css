@@ -124,7 +124,7 @@ a:hover { text-decoration: underline; }
 h1 {
     letter-spacing: -1px;
     line-height: 60px;
-	font-size: 70px; text-transform: uppercase; color: white;
+	font-size: 70px; color: white;
 	text-shadow: 1px 0px 0px #eee, 2px 1px 0px #eee, 3px 2px 0px #eee, 4px 3px 0px #eee, 6px 5px 2px #ddd;
 	display: inline;
 	z-index: 999; position: relative;
