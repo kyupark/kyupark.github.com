@@ -3,6 +3,8 @@ You are allowed to do whatever you want with this layout. Though I would be plea
 */
 
 body {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight: 300;
 width:750px;
 margin:0 auto;
 margin-top:30px;
