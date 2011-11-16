@@ -1,86 +1,65 @@
-/*
-  960 Grid System ~ Text CSS.
-  Learn more ~ http://960.gs/
-
-  Licensed under GPL and MIT.
-*/
-
-/* `Basic HTML
-----------------------------------------------------------------------------------------------------*/
-
 body {
-  font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight: 300;
+margin:0 auto;
 }
 
-pre,
-code {
-  font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace;
-}
-
-hr {
-  border: 0 #ccc solid;
-  border-top-width: 1px;
-  clear: both;
-  height: 0;
-}
-
-/* `Headings
-----------------------------------------------------------------------------------------------------*/
+a { color: #555; text-decoration: none; }
+a:hover { text-decoration: underline; }
 
 h1 {
-  font-size: 25px;
+    letter-spacing: -1px;
+    line-height: 60px;
+	font-size: 6em; 
+	color: white;
+	text-shadow: 1px 0px 0px #eee, 2px 1px 0px #eee, 3px 2px 0px #eee, 4px 3px 0px #eee, 6px 5px 2px #ddd;
+	z-index: 999; position: relative;
+	text-align: center;
+} h1 a { color: white; text-decoration: none; }
+
+h1 a:hover { color: white; text-decoration: none; text-shadow: 1px 0px 0px #eee, 2px 1px 0px #eee, 3px 2px 0px #eee, 4px 3px 0px #eee, 6px 5px 3px #d5d5d5; }
+
+#social a {
+	font-size: 1.5em;
+	margin-left: auto;
+    margin-right: auto;
 }
 
-h2 {
-  font-size: 23px;
+.grid_2 {
+	max-width: 140px;
+	overflow: hidden;
 }
 
-h3 {
-  font-size: 21px;
+#header .grid_2 {
+	padding: 15px 0px 15px;
+	text-align: center;
 }
 
-h4 {
-  font-size: 19px;
+.grid_2:hover {
+	background: #ddd;
 }
 
-h5 {
-  font-size: 17px;
+#header {
+background: #eee;
+-webkit-text-size-adjust: none;
+background: -webkit-gradient(
+  radial, 0 10%, 20, 0 10%, 400, from(#f1f1f1), to(#eee)
+  )
 }
 
-h6 {
-  font-size: 15px;
+#content { 
+width:750px;
+min-height:450px; /* for modern browsers */
+height:auto !important; /* for modern browsers */
+height:450px; /* for IE5.x and IE6 */background-color:#333333;
+margin-top:10px;
+border-radius: 30px 30px 30px 30px;
 }
 
-/* `Spacing
-----------------------------------------------------------------------------------------------------*/
-
-ol {
-  list-style: decimal;
-}
-
-ul {
-  list-style: disc;
-}
-
-li {
-  margin-left: 30px;
-}
-
-p,
-dl,
-hr,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ol,
-ul,
-pre,
-table,
-address,
-fieldset,
-figure {
-  margin-bottom: 20px;
+#footer { 
+width:750px;
+height:100px;
+background-color:#333333;
+margin-top:10px;
+border-radius: 30px 30px 30px 30px;
 }

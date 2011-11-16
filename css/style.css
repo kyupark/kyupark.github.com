@@ -28,12 +28,7 @@ margin-top:30px;
   font-style: normal;
 }
 
-#header {
-width:750px;
-height:150px;
-background-color:#333333;
-border-radius: 30px 30px 30px 30px;
-}
+
 
 
 
@@ -55,14 +50,6 @@ border-radius: 30px 30px 30px 30px;
 
 
 
-#content { 
-width:750px;
-min-height:450px; /* for modern browsers */
-height:auto !important; /* for modern browsers */
-height:450px; /* for IE5.x and IE6 */background-color:#333333;
-margin-top:10px;
-border-radius: 30px 30px 30px 30px;
-}
 
 
 
@@ -70,13 +57,7 @@ border-radius: 30px 30px 30px 30px;
 
 
 
-#footer { 
-width:750px;
-height:100px;
-background-color:#333333;
-margin-top:10px;
-border-radius: 30px 30px 30px 30px;
-}
+
 
 * { border: 0; margin: 0; padding: 0; outline: 0; }
 
