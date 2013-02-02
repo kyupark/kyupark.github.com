@@ -10,6 +10,9 @@
 h1 small {
 	line-height:1.5em;
 }
+td {
+	padding: 4px;
+}
 form {
 	margin:0px
 }
