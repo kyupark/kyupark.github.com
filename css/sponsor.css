@@ -12,6 +12,7 @@ h1 small {
 }
 td {
 	padding: 4px;
+	vertical-align:middle;
 }
 form {
 	margin:0px
