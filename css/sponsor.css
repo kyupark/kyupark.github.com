@@ -1,0 +1,30 @@
+.container_12 {
+	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.grid_12 {
+	margin-bottom:20px;
+}
+.grid_4 {
+	margin-top:10px;
+}
+h1 small {
+	line-height:1.5em;
+}
+form {
+	margin:0px
+}
+#sidebar {
+	border:1px solid #5A4;
+	padding:20px;
+	border-radius:5px;
+	background:#CEC;
+}
+#radios {
+	font-size:1em;
+}
+#donate_btn {
+	margin:10px 0;
+}
+#btns {
+	text-align:center
+}
