@@ -17,5 +17,23 @@ global $cdn;
 
         <br><br>
         <div class="clear"></div>
-                <div id="footerMenu">
-                <?php global $lang;global $langvar; global $odk;?>
+        <style type="text/css">
+div#footerMenu a {
+        color: #000;
+        text-decoration: none;
+}
+div#footerMenu a:hover {
+        color:#98CB1F;
+        text-decoration: none;
+}
+</style>
+                <div id="footerMenu" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14">
+<a href="/"> 홈 </a>|
+<a href="/aboutus"> 회사소개 </a>|
+<a href="/sponsor"> ODK 스폰서 후원 </a>|
+<a href="/privacy-policy"> 개인정보 보호정책 </a>|
+<a href="/terms-of-use"> 이용약관 </a>|
+<a href="/career"> 인재채용 </a>|
+<a href="/ads"> 광고/제휴 </a>|
+<a href="/help"> 고객센터 </a>|
+<a href="/faq"> FAQ </a>
