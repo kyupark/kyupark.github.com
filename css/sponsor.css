@@ -1,6 +1,7 @@
-@import url('http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb');
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 .container_12 {
-	font-family:'Helvetica Neue',Helvetica,Arial,NanumGothicWeb,"돋움",sans-serif;
+	font-family:'Helvetica Neue',Helvetica,Arial,'Nanum Gothic',sans-serif;
 }
 .grid_12 {
 	margin-bottom:20px;
