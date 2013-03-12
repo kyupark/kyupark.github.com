@@ -8,7 +8,7 @@
 	text-align: center;
 }
 h1 {
-	font-size: 60px !important;
+	font-size: 50px !important;
 	line-height: 1.1em !important;
 }
 h2 {
@@ -22,8 +22,9 @@ form {
 }
 input {
 	text-align: center;
-	font-size: 60px !important;
-	height: 65px !important;
+	font-size: 50px !important;
+	line-height: 55px !important;
+	height: 50px !important;
 }
 button {
 	float: none !important;
