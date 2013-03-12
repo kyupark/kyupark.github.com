@@ -1,3 +1,6 @@
+html, body {
+	background-color: #011E57 !important;
+}
 #wrapper {
 	width:320px;
 	margin: 0 auto;
@@ -8,8 +11,10 @@
 	text-align: center;
 }
 h1 {
+	color: #fff !important;
 	font-size: 50px !important;
 	line-height: 1.1em !important;
+	font-weight:300 !important;
 }
 h2 {
 	line-height: 1em !important;
