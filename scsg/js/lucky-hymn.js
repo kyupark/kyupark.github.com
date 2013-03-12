@@ -6,14 +6,10 @@ function lucky(num) {
 }
 
 window.onload = function() {
-  document.getElementById("nums").focus();
-};
-
-$(document).ready(function(){
-
-	$('.btn-primary').click(function() {
-		window.location.href = lucky($('input').val());
+	textbox = document.getElementById('nums');
+	textbox.focus();
+	document.getElementById('submit').onclick = function() {
+    	window.location.href = lucky(textbox.value);
 		return false;
-	});
-
-});
+	}
+};
