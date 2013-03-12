@@ -11,8 +11,4 @@ $(document).ready(function(){
 		return false;
 	});
 
-	$('.num').click(function() {
-		$('input').val($('input').val() + $(this).text());
-		return false;
-	})
 });
