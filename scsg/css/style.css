@@ -4,14 +4,15 @@
 	padding-bottom: 2em;
 }
 #header {
-	margin-top: .5em;
+	margin-top: 2em;
 	text-align: center;
 }
 h1 {
-	line-height: 1.5em;
+	font-size: 60px !important;
+	line-height: 1.1em !important;
 }
 h2 {
-	line-height: 1em;
+	line-height: 1em !important;
 }
 form {
 	text-align: center;
@@ -19,14 +20,12 @@ form {
 #main {
 	text-align: center;
 }
-
-.addr {
-	text-align: right;
-	font-size: 2em;
-}
 input {
-	font-size: 200%;
+	text-align: center;
+	font-size: 60px !important;
+	height: 65px !important;
 }
-.numpad {
-	width: 75px;
+button {
+	float: none !important;
+	margin: 0 auto !important;
 }
