@@ -5,7 +5,12 @@ function lucky(num) {
 	return url;
 }
 
+window.onload = function() {
+  document.getElementById("nums").focus();
+};
+
 $(document).ready(function(){
+
 	$('.btn-primary').click(function() {
 		window.location.href = lucky($('input').val());
 		return false;
